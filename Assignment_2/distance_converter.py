@@ -1,0 +1,5 @@
+F = int(input('Enter value in feet '))
+I = int(input('Enter value in inches '))
+meter = (F * 0.3048) + (I * 0.0254)
+centimeter = (F * 30.48) + (I * 2.54)
+print(f'feet and inches into meter is {meter} and centimeter is {centimeter}')
